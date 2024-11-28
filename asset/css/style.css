@@ -50,12 +50,35 @@ table {
 	border-spacing: 0;
 }
 
-header {
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* page index */
+
+.navDown {
+	width: 100%;
+	height: 80px;
+}
+
+.navDown ul {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	width: 100%;
-	height: 4.188rem;
+	height: 80px;
+	border-bottom: 1px solid #000000;
+	font-family: "Playball", cursive;
+	font-size: 30px;
+}
+
+.navUp {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 80px;
 	border-bottom: 1px solid #000000;
 }
 
@@ -67,6 +90,7 @@ header {
 .titre {
 	text-align: center;
 }
+
 
 .imageMenu {
 	width: 100%;
@@ -176,6 +200,7 @@ header h1 {
 	text-shadow: 0px 4px 2px #000000;
 }
 
+
 div h2 {
 	text-align: center;
 	font-family: "Plus Jakarta Sans", sans-serif;
@@ -205,10 +230,278 @@ footer {
 	text-align: center;
 }
 
+/* page Recette entrées */
+
+.recetteMenu {
+    font-family: "Playball", cursive;
+    font-size: 40px;
+    font-weight: 100;
+    color: #fff;
+    text-shadow: 0px 4px 2px #000000;
+    padding-top: 370px;
+}
+
+.listMenu {
+    width: 100%;
+    height: 245px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgList {
+    width: 171px;
+    height: 161px;
+    padding: 0 10px 0 20px;
+}
+
+.caseList {
+	width: 191px;
+    height: 161px ;
+
+}
+
+.titreList {
+    font-family: "Playball", cursive;
+    font-size: 25px;
+    padding: 0 0 30px 20px;
+}
+
+.paragrafList {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 20px 0 10px;
+    text-align: center;
+    line-height: 15px;
+}
+
+
+#recettEntre {
+    width: 100%;
+    height: 457px;
+    background:  url(../img/entrée.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* page Recettes plats */
+
+#recettePlat {
+	background: url(../img/Plat.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page recettes dessert */
+
+#recetteDessert {
+	background-image: url(../img/Dessert.webp);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+/*page salade*/
+
+#recetteSalade {
+	background-image: url(../img/saladeverte.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.imgSalade {
+	width: 50px;
+	height: 50px;
+}
+
+.paragrafRecette {
+	text-align: center;
+	font-family: "Plus Jakarta Sans", sans-serif;
+	font-size: 16px;
+	line-height: 21px;
+	margin: 60px 0 0 20px;
+}
+
+/* page quiche */
+
+#recetteQuiche {
+	background-image: url(../img/part-de-quiche.webp);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+/* page avocat */
+
+#recetteAvocat {
+	background-image: url(../img/avocat-crevettes.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page escargots */
+
+#recettEscargot {
+	background-image: url(../img/escargot-beurre.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page tomate provençale */
+
+#recetteTomate {
+	background-image: url(../img/tomatesProvence.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page saint jacques */
+
+#recetteSaint {
+	background-image: url(../img/saintJacques.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page langouste */
+
+#recetteLangouste {
+	background-image: url(../img/langoustesGrillées.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page poulet frites */
+
+#recettePoulet {
+	background-image: url(../img/poulet-avec-frites.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page spaghetti bolognaise */
+
+#recetteSpaghet {
+	background-image: url(../img/spaghetti-bolognaise.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page raclette */
+
+#recetteRaclette {
+	background-image: url(../img/raclette-charcut.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page gratin de fruit de mer */
+
+#recetteGratin {
+	background-image: url(../img/gratin-mer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page poulet à l'Arlette */
+
+#recetteArlette {
+	background-image: url(../img/fricassee-de-poulet-au-vin-blanc-et-a-la-creme-fraiche.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page rapé */
+
+#recetteRapé {
+	background-image: url(../img/rapée.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page chili */
+
+#recetteChili {
+	background-image: url(../img/chili-con-carne.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page flan */
+
+#recetteFlan {
+	background-image: url(../img/flan-caramel.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page pain perdu */
+
+#recettePain {
+	background-image: url(../img/pain-perdu.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 
 
 
+@media screen and (min-width: 803px) {
+	
+	.list {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		margin-left: 50px;
+	}
+	#menu figure {
+		width: 450px;
+		height: 500px;
+	}
+}
+
+@media screen and (min-width: 1257px) {
+	
+	.list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		margin-left: 50px;
+	}
+
+	#menu figure {
+		width: 450px;
+		height: 500px;
+		margin: 100px 0 100px 0;
+	}
+
+	#intro {
+		width: 70%;
+		margin-left: 250px;
+	}
+
+	#textIntro {
+		margin: 100px 0 100px 0;
+	}
+
+	.recetteStart{
+		
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	
+	
+}
+
+
+
+
+
+/* faire disparaitre le navdown */
+
+@media screen and (max-width: 500px) {
+	.navDown {
+		display: none;
+	}
+}
 
 
 
