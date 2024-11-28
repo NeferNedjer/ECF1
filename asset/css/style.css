@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neonderthaw&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');/* font-family: "Pacifico", cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neonderthaw&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Playball&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');/* font-family: "Playball", cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neonderthaw&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Playball&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');/* font-family: "Plus Jakarta Sans", sans-serif; */
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 4.188rem;
+	border-bottom: 1px solid #000000;
+}
+
+.icon {
+	width: 41px;
+	height: 46px;
+}
+
+.titre {
+	text-align: center;
+}
+
+.imageMenu {
+	width: 100%;
+	height: 390px;
+	margin-top: 15px;
+}
+
+.refMenu {
+	text-decoration: none;
+	color: #000;
+	font-family: "Playball", cursive;
+	font-size: 35px;
+	border: 1px solid #000000;
+	padding: 0 40px;
+}
+
+.planche {
+	height:1433px ;
+	background: url(../img/nappe.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.titleMenu {
+	font-family: "Playball", cursive;
+	font-size: 37px;
+	font-weight: 100;
+	padding-top: 100px;
+	color: #fff;
+	text-shadow: 0px 4px 2px #000000;
+	
+}
+
+.plancheImg {
+	width: 212px;
+	height: 157px;
+	margin-top: 50px;
+
+}
+
+.subTitleMenu {
+	color: #fff;
+	font-family: "Playball", cursive;
+	font-size: 35px;
+	font-weight: 100;
+	padding: 40px;
+	text-shadow: 0px 4px 2px #000000;
+}
+
+.paragrafMenu {
+	color: #fff;
+	font-family: "Plus Jakarta Sans", sans-serif;
+	font-size: 23px;
+	font-weight: 100;
+	line-height: 27px;
+	padding: 0 40px 0 40px;
+	text-shadow: 0px 4px 2px #000000;
+}
+
+.reseaux {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.bulle {
+	width: 46px;
+	height: 46px;
+}
+
+.paragraFooter {
+	font-family: "Plus Jakarta Sans", sans-serif;
+	padding: 10px 0 20px 0;
+}
+
+.refFooter {
+	text-decoration: none;
+	font-family: "Plus Jakarta Sans", sans-serif;
+	color: #000000;
+	padding: 30px 0;
+}
+
+header h1 {
+	font-family: "Pacifico", cursive;
+	font-size: 1.563rem;
+	padding-top: 25px;
+}
+
+#welcome {
+	width: 100%;
+	height: 467px; 
+	background: url(../img/cuisine.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+#welcome h2 {
+	
+	font-family: "Playball", cursive;
+	font-size:66px;
+	font-weight: 100;
+	line-height: 90px;
+	color: #fff;
+	padding: 80px 0px 0 40px;
+	text-shadow: 0px 4px 2px #000000;
+}
+
+div h2 {
+	text-align: center;
+	font-family: "Plus Jakarta Sans", sans-serif;
+	font-weight: 700;
+	font-size: 21px;
+	padding:5px 0 20px 0;
+}
+
+#intro {
+	text-align: center;
+	font-family: "Plus Jakarta Sans", sans-serif;
+	font-size: 16px;
+	line-height: 21px;
+	padding: 0 10px;
+	margin-bottom: 15px;
+}
+
+#menu {
+	text-align: center;
+}
+
+#menu img {
+	margin-bottom: 15px;
+}
+
+footer {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
