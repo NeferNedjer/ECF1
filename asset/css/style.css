@@ -73,6 +73,10 @@ a {
 	font-size: 30px;
 }
 
+.navDown a:hover {
+	color: #666
+}
+
 .navUp {
 	display: flex;
 	justify-content: space-around;
@@ -181,6 +185,10 @@ header h1 {
 	padding-top: 25px;
 }
 
+header h1:hover {
+	color: #666;
+}
+
 #welcome {
 	width: 100%;
 	height: 467px; 
@@ -198,6 +206,10 @@ header h1 {
 	color: #fff;
 	padding: 80px 0px 0 40px;
 	text-shadow: 0px 4px 2px #000000;
+}
+
+#menu a:hover {
+	color: #666;
 }
 
 
@@ -228,6 +240,10 @@ div h2 {
 
 footer {
 	text-align: center;
+}
+
+.refFooter:hover {
+	color: #666;
 }
 
 /* page Recette entrées */
@@ -405,7 +421,7 @@ footer {
 /* page poulet à l'Arlette */
 
 #recetteArlette {
-	background-image: url(../img/fricassee-de-poulet-au-vin-blanc-et-a-la-creme-fraiche.jpg);
+	background-image: url(../img/pouletArlette.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -421,7 +437,7 @@ footer {
 /* page chili */
 
 #recetteChili {
-	background-image: url(../img/chili-con-carne.jpg);
+	background-image: url(../img/chili.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -429,7 +445,7 @@ footer {
 /* page flan */
 
 #recetteFlan {
-	background-image: url(../img/flan-caramel.jpg);
+	background-image: url(../img/flan.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -442,8 +458,67 @@ footer {
 	background-size: cover;
 }
 
+/* page fondant au chocolat */
+
+#recetteFondant {
+	background-image: url(../img/fondant.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page iles flottantes */
+
+#recetteIle {
+	background-image: url(../img/iles.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page poire */
+
+#recettePoire {
+	background-image: url(../img/poire-bel-helene.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* mousse chocolat */
+
+#recetteMousse {
+	background-image: url(../img/mousse-au-chocolat.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page tiramisu */
+
+#recetteTiramisu {
+	background-image: url(../img/tiramisu.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* page contact */
+
+form {
+	text-align: center;
+	color: #fff;
+	font-family: "Plus Jakarta Sans", sans-serif;
+	padding-top: 100px;
+	background: url(../img/nappe.jpg);
+}
 
 
+input {
+	
+	font-size: 20px;
+	margin: 0  0 30px 0;
+}
+
+textarea {
+	font-size: 20px;
+	margin: 0  0 200px 0;
+}
 
 @media screen and (min-width: 803px) {
 	
@@ -460,10 +535,26 @@ footer {
 
 @media screen and (min-width: 1257px) {
 	
+	
 	.list {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		margin-left: 50px;
+		margin-left: 20px;
+		margin-top: 100px;
+	}
+
+	.listMenu {
+		
+		height: 500px;
+	}
+
+	.imgList {
+		width: 250px;
+		height: 250px;	
+	}
+
+	#indexPlank {
+		display: flex;
 	}
 
 	#menu figure {
@@ -488,6 +579,7 @@ footer {
 		background-position: center;
 	}
 	
+
 	
 }
 
