@@ -9,13 +9,35 @@
 </head>
 <body>
     <header>
+
+        
         <nav class="navUp">
-            <figure ><img class="icon" src="./asset/img/menu.png" alt="icon menu"></figure>
+            
+            <div id="mySidenav" class="sidenav">
+                <a id="closeBtn" href="#"  class="close">x</a>
+                <ul>
+                    <li><a href="./index.html">Acceuil</a></li>
+                    <li><a href="./entrées.html"> Entrées</a></li>
+                    <li><a href="./plats.html">Plats</a></li>
+                    <li><a href="./desserts.html">Desserts</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+    
+            <a href="#" id="openBtn">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </a>
+    
             <a href="index.html"><h1>Mamie Arlette</h1></a>
-            <figure ><img class="icon" src="./asset/img/connexion.png" alt="icon connexion"></figure>
+            <figure ><a href="contact.html"><img class="icon" src="./asset/img/connexion.png" alt="icon connexion"></a></figure>
         </nav>
         <nav class="navDown">
             <ul>
+                <li><a href="index.html">Acceuil</a></li>
                 <li><a href="entrées.html">Entrées</a></li>
                 <li><a href="plats.html">Plats</a></li>
                 <li><a href="desserts.html">Desserts</a></li>
@@ -54,6 +76,6 @@
     </main>
 
     
-    <script src="./asset/js/main.js"></script>
+    <script src="./asset/js/burger.js"></script>
 </body>
 </html>

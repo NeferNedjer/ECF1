@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neonderthaw&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');/* font-family: "Pacifico", cursive;*/
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neonderthaw&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Playball&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');/* font-family: "Playball", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neonderthaw&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Playball&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');/* font-family: */
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neonderthaw&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Playball&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');/* font-family: "Plus Jakarta Sans", sans-serif; */
 
@@ -56,6 +56,85 @@ a {
 }
 
 /* page index */
+
+/* début burger */
+
+.sidenav {
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: -250px;
+	background-color: #fff;
+	padding-top: 60px;
+	transition: left 0.5s ease;
+  }
+  
+  /* Sidenav menu liens */
+  .sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-family:  "Playball", cursive;;
+	font-size: 25px;
+	color: #000;
+	display: block;
+	transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+	color: #666;
+  }
+  
+  .sidenav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+  }
+  
+  
+  .sidenav.active {
+	left: 0;
+  }
+  
+  
+  .sidenav .close {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+  }
+  
+  /* Icône burger */
+  .burger-icon span {
+	display: block;
+	width: 35px;
+	height: 5px;
+	background-color: #000;
+	margin: 6px 0;
+  }
+
+  #closeBtn {
+	font-family: "Plus Jakarta Sans", sans-serif;
+  }
+/* close btn */
+
+.sidenav .close {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+}
+
+.burger-icon span {
+	display: block;
+	width: 35px;
+	height: 5px;
+	background-color: #000;
+	margin: 3px 0;
+}
+
+/*fin burger */
 
 .navDown {
 	width: 100%;
@@ -520,22 +599,31 @@ textarea {
 	margin: 0  0 200px 0;
 }
 
+
+
+
+
+
 @media screen and (min-width: 803px) {
+	
 	
 	.list {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		margin-left: 50px;
+		gap: 10px;
 	}
 	#menu figure {
-		width: 450px;
-		height: 500px;
+		width: 350px;
+		height: 460px;
 	}
 }
 
 @media screen and (min-width: 1257px) {
 	
-	
+	body {
+		max-width: 1920px;
+	}
 	.list {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -583,7 +671,15 @@ textarea {
 	
 }
 
+@media screen and (min-width: 501px){
 
+	nav figure {
+		display: none;
+	}
+	#openBtn {
+		display: none;
+	}
+}
 
 
 
@@ -593,6 +689,8 @@ textarea {
 	.navDown {
 		display: none;
 	}
+
+	
 }
 
 
