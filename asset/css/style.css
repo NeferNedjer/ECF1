@@ -169,7 +169,7 @@ a {
 
 .imageMenu:hover {
 	transform: scale(1.1);
-	transition: all 0.25s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
 .refMenu {
@@ -206,8 +206,10 @@ a {
 }
 
 .plancheImg:hover {
+	border-radius: 0 50px 0 50px;
+	transition: border-radius .33s, opacity .33s;
 	transform: scale(1.1);
-	transition: all 0.25s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
 .subTitleMenu {
@@ -358,7 +360,10 @@ footer {
     padding: 0 10px 0 20px;
 }
 
-
+.imgList:hover{
+	border-radius: 0 50px 0 50px;
+	transition: border-radius .33s, opacity .33s;
+}
 
 
 .caseList {
@@ -644,6 +649,14 @@ textarea {
 		margin-left: 20px;
 		margin-top: 100px;
 	}
+
+	.imageMenu:hover {
+		border-radius: 0 70px 0 70px;
+		transition: border-radius .33s, opacity .33s;
+		transform: scale(1.1);
+		transition: all 0.5s ease-in-out;
+	}
+	
 
 	.listMenu {
 		
